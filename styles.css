@@ -17,7 +17,7 @@ body {
 
 /* Button field */
 
-#input-btn, #delete-btn, #tab-btn {
+#saveinput-btn, #delete-btn, #savetab-btn {
   padding: 10px 15px;
   margin-top: 10px;
   border: none;
@@ -33,4 +33,15 @@ body {
   list-style-type: none;
   padding: 0;
   color: #b6deff;
+  list-style: none;
+}
+
+a:link {
+  color: #b6deff;
+}
+
+#saveinput-btn:hover, #delete-btn:hover, #savetab-btn:hover {
+  background-color: #7dc0fe;
+  transition: 0.5s;
+  color: white;
 }
