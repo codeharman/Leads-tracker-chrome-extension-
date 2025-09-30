@@ -1,0 +1,36 @@
+body {
+  background-color: #282c34;
+  color: #b6deff;
+  margin: 20px;
+  font-family: helvetica, sans-serif;
+}
+
+/* Input field */
+
+#input-el {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  color: #282c34;
+}
+
+/* Button field */
+
+#input-btn, #delete-btn, #tab-btn {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b6deff;
+  color: #282c34;
+  cursor: pointer;
+}
+
+/* List field */
+
+#ul-el {
+  list-style-type: none;
+  padding: 0;
+  color: #b6deff;
+}
