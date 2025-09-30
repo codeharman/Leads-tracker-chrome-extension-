@@ -41,9 +41,9 @@ deleteBtn.addEventListener('click', function() {
 })
 // Need to work on the save tab part
 saveBtn.addEventListener('click', function() {
-  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-    myLeads.push(tabs[0].url);
+  chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+    myLeads.push(tabs[0].url); // grab the current tab's URL
     localStorage.setItem('myLeads', JSON.stringify(myLeads));
     render();
   });
-})
+});
